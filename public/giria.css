@@ -91,6 +91,16 @@ section img {
     align-items: center;
     flex-direction: row;
     padding: 4%;
+    color: yellow;
+}
+
+#girias a{
+    color: yellow;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: 11%;
 }
 
 #girias p{
