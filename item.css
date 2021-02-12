@@ -1,0 +1,113 @@
+*{
+    margin: 0%;
+    text-decoration: none;
+    box-sizing: border-box;
+}
+
+header, footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    background-image: url(https://i.pinimg.com/originals/3d/65/7a/3d657aa27c01af714c25e91ca1de4ce3.jpg);
+    color: white;
+}
+
+header div{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+}
+#logo {
+    display: flex;
+    justify-content: space-around;
+    
+}
+#descubra {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+#descubra img{
+    padding: 1.5%;
+}
+
+#links {
+    width: 50%;
+}
+#links img{
+    border-radius: 26%;
+}
+#destaque {
+    border: 5px solid;
+    border-color: rgb(98, 97, 177) rgb(98, 97, 177) rgb(47, 25, 109) rgb(98, 97, 177);
+    padding: 1%;
+}
+
+section {
+    background-image: url(https://observatoriodegames.uol.com.br/wp-content/uploads/2020/05/League-of-Legends-LoL-Beta-2.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    color: aliceblue;
+}
+section img {
+    border-radius: 70%;
+    
+}
+
+#itens{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    flex-direction: row;
+    border: solid;
+    width: 100%;
+    font-size: 100%;
+    font-weight: bold;
+    padding: 1%;
+    background-color: rgba(0, 0, 0, 0.5); 
+    color: red;
+}
+.img {
+    width: 50px;
+    border: yellow solid;
+    border-width: 1px;
+    box-shadow: 0 0 0.4em gold;
+    margin: 1%;
+}
+.img:hover{
+    opacity: 0.7;
+    cursor: pointer;
+}
+
+#imgfinal {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 50px;
+    margin-left: 50%;
+}
+
+#detalhe {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    margin: auto;
+    flex-direction: row;
+    border: solid;
+    width: 100%;
+    font-size: 100%;
+    font-weight: bold;
+    padding: 1%;
+    background-color: rgb(0, 0, 0, 0.7);
+    color: red;
+}
+
+#titulo{
+    font-size: 120%;
+    
+}

@@ -1,0 +1,113 @@
+*{
+    margin: 0%;
+    text-decoration: none;
+    box-sizing: border-box;
+}
+
+header, footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    background-image: url(https://i.pinimg.com/originals/3d/65/7a/3d657aa27c01af714c25e91ca1de4ce3.jpg);
+    color: white;
+}
+
+header div{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+}
+#logo {
+    display: flex;
+    justify-content: space-around;
+    
+}
+#descubra {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+#descubra img{
+    padding: 1.5%;
+}
+
+#links {
+    width: 50%;
+}
+#links img{
+    border-radius: 26%;
+}
+#destaque {
+    border: 5px solid;
+    border-color: rgb(98, 97, 177) rgb(98, 97, 177) rgb(47, 25, 109) rgb(98, 97, 177);
+    padding: 1%;
+}
+
+body {
+    background-image: url(https://observatoriodegames.uol.com.br/wp-content/uploads/2020/05/League-of-Legends-LoL-Beta-2.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    color: aliceblue;
+}
+section img {
+    border-radius: 70%;
+}
+
+#titulo {
+    display: flex;
+    justify-content: center;
+    padding: 5%;
+    color: yellow;
+    margin: 1% auto;
+    border: red solid;
+    border-radius: 50%;
+    width: 20%;
+    font-size: 180%;
+    padding: 3%;
+    background-color: rgb(0, 0, 0, 0.6);
+}
+
+#meio{
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+    padding: 5%;
+    color: yellow;
+    border: red solid;
+    border-radius: 30%;
+    width: 100%;
+    font-size: 180%;
+    padding: 1%;
+    background-color: rgb(0, 0, 0, 0.6);
+}
+
+#girias {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    align-items: center;
+    flex-direction: row;
+    padding: 4%;
+}
+
+#girias p{
+    padding: 3%;
+}
+#girias p:hover{
+    cursor: pointer;
+    opacity: 0.7;
+}
+
+.caixa{
+    border-style: solid;
+    border-color: yellow;
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 5% auto;
+
+}

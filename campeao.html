@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="pt-Br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="campeao.css">
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+        </style>
+    <title>Campeões</title>
+</head>
+<body>
+    <header>
+        <div id="logo">
+            <a href="index.html"><img src="imagem/logo.png" alt="logo league of legends" width="100px" title="LOL"></a>
+            <div>
+                <select id="busca" onchange="loadchamp()">	
+                    <option selected hidden>Carregando...</option>
+                </select>
+            </div>				    
+        </div>
+        <div id="links">
+            <a id="destaque" href="campeao.html"><img src="imagem/trofeu.png" alt="campeões" width="70px" title="Campeões"></a>
+            <a href="item.html"><img src="https://www.flaticon.com/premium-icon/icons/svg/2915/2915412.svg" alt="itens" width="70px" title="Itens"></a>
+            <a href="giria.html"><img src="imagem/dictionary.png" alt="Gírias" width="70px" title="Girias do LOL"></a>
+        </div>
+    </header>
+    
+    <section id="section">
+        <div id="conteudo">
+            <div id="resultado">
+            </div>
+            <div id="apresentacao">
+                
+                <div id="apre" >
+                    <h1>Campeões</h1>
+                    <p>
+                        Cada campeão apresenta uma função específica, habilidades e maneiras de se jogar. Para dominar totalmente um campeão é necessário um bom número de partidas com ele. Existem campeões com maneiras similares de se jogar, pois eles são separados em categorias, são elas: Tanques, Magos, Atiradores, Lutadores, Suportes e Assassinos.
+                    </p>
+                    
+                </div>
+            </div>
+            
+            <div id="vida" style="visibility: none;">
+                
+            </div>
+            <div id="vida1"></div>
+            <div id="nivel">
+                <div>
+                    <div id="ali"></div>
+                </div>
+                <div>
+                    <div id="ini"></div>
+                </div>
+                
+            </div>
+            <div>
+                <div>
+                    
+                    <div id="passivadesc"></div>
+                </div>
+                <div id="conteudomagia">
+                    <div id="magiaimg"></div>
+                </div>
+            </div>
+        </div>
+        
+    </section>
+    
+    
+    
+    <footer>
+        <div width="100%" style="padding: 1%">
+            Este site não usa Cookies.
+        </div>
+    </footer>
+    
+    <script src="campeao.js"></script>
+</body>
+</html>

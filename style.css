@@ -1,0 +1,88 @@
+*{
+    margin: 0%;
+    text-decoration: none;
+    box-sizing: border-box;
+}
+
+header, footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    background-image: url(https://i.pinimg.com/originals/3d/65/7a/3d657aa27c01af714c25e91ca1de4ce3.jpg);
+    color: white;
+}
+
+header div{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+}
+#logo {
+    display: flex;
+    justify-content: space-around;
+    
+}
+#descubra {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    margin-right: 5%;
+}
+#descubra img{
+    padding: 1.5%;
+}
+
+#links {
+    width: 50%;
+}
+#links img{
+    border-radius: 26%;
+}
+#destaque {
+    border: 5px solid;
+    border-color: rgb(98, 97, 177) rgb(98, 97, 177) rgb(47, 25, 109) rgb(98, 97, 177);
+    padding: 1%;
+}
+
+section {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.938), rgba(76, 77, 76, 0)), url(https://observatoriodegames.uol.com.br/wp-content/uploads/2020/05/League-of-Legends-LoL-Beta-2.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    color: aliceblue;
+}
+section img {
+    border-radius: 70%;
+}
+
+#titulo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 2%;
+}
+
+iframe {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+}
+
+#desenv {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 2%;
+    border: 2px solid rgba(255, 255, 255, 0.445);
+    background: rgba(255, 255, 255, 0.014);
+    box-shadow: 0 3px 5px rgb(0 0 0 / 30%);
+    backdrop-filter: blur(3px);
+    border-left: 40px solid rgba(255, 255, 255, 0);
+    border-right: 40px solid rgba(255, 255, 255, 0);
+    margin: 1%;
+}
